@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -24,21 +28,65 @@
     text-decoration: none;
     margin-right: 12px;
 }
-.header_item ul :hover a {
-    
+.header_item ul :hover a {  
     color: rgb(96, 252, 82);
 }
 .header_item-icon {
     margin-top: 15px;
 }
+
 .header_item-dangnhap {
-    margin-top: 15px;
+    margin: 10px;
+}
+.header_item-dangnhap button{
+    border: 1px solid chartreuse;
+    border-radius: 20px;
+    color: chartreuse;
+    background-color: #fff;
+    padding: 7px;
 }
 .header_item-giohang {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
-.nar {
+.header_item-giohang button{
+    border: 1px solid chartreuse;
+    border-radius: 20px;
+    color: chartreuse;
+    background-color: #fff;
+    padding: 7px;
+}
+
+.container {
     display: flex;
-    width: 70%;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav {
+    margin-right: 20px;
+}
+
+.container img {
+    width: 700px;
+    border-radius: 20px;
+}
+
+.navbarr img{
+    width: 347px;
+}
+
+.sanphammoi h2{
+    text-align: center;
+}
+.hinhanh {
+    display: flex;
+    text-align: center;
+}
+.anh img {
+    width: 260px;
+    border-radius: 10px;
+}
+.hinhanh .anh {
+    width: 25%;
 }
