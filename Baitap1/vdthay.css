@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.header_item {
+    display: flex;
+    margin-right: 12px;
+    line-height: 20px;
+}
+
+.header_item ul {
+    display: flex;
+    list-style: none;
+    
+}
+.header_item ul a {
+    color: black;
+    text-decoration: none;
+    margin-right: 12px;
+}
+.header_item ul :hover a {
+    
+    color: rgb(96, 252, 82);
+}
+.header_item-icon {
+    margin-top: 15px;
+}
+.header_item-dangnhap {
+    margin-top: 15px;
+}
+.header_item-giohang {
+    margin-top: 15px;
+}
+
+.nar {
+    display: flex;
+    width: 70%;
+}
